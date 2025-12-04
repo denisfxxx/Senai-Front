@@ -1,19 +1,13 @@
+*{margin:0;
+  padding: 0;
+ box-sizing: border-box;}
+
 body {
     background: linear-gradient(to right, #FFD700, #C72C41);
+    height:100vh ;
 }
+.interface{
+ max-width: 1280px;
+ margin:0 auto;}
 
 
-.menu-container {
-    display: flex;                /* ativa o flexbox */
-    justify-content: center;      /* centraliza horizontal */
-    align-items: center;          /* alinha vertical */
-    gap: 40px;                    /* espaço entre todos os itens */
-    margin-top: 20px;             /* empurra para baixo se precisar */
-}
-
-.menu-item {
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 600;
-    color: black;
-}
