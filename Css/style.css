@@ -6,8 +6,44 @@ body {
     background: linear-gradient(to right, #FFD700, #C72C41);
     height:100vh ;
 }
-.interface{
+.menu-container{
  max-width: 1280px;
  margin:0 auto;}
 
+header{padding: 40px 4%;}
 
+header > .menu-container{display: flex;
+align-items:center;
+justify-content: space-between;
+}
+
+header a{color: black;
+text-decoration: none;
+display: inline-block;}
+
+header a:hover{color: rgb(241, 241, 241);
+transform: scale(1.5);}
+
+header nav ul{list-style-type: none;}
+header nav ul li{display:inline-block;
+padding:0 40px}
+
+header .btn-contato button{
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: #C72C41;
+  cursor: pointer;
+  border:0;
+  border-radius:30px ;
+}
+header .btn-contato button:hover{box-shadow:0px 0px 8px #c72c4133;}
+
+
+#LA{color: rgb(2, 85, 158);}
+
+#blue{
+  color: rgb(0, 77, 128);
+}
+
+#VM{color: blue;}
