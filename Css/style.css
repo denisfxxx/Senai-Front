@@ -1,6 +1,20 @@
 *{margin:0;
   padding: 0;
  box-sizing: border-box;}
+ 
+.flex{display: flex;}
+
+.btn-contato button{
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: #C72C41;
+  cursor: pointer;
+  border:0;
+  border-radius:30px ;
+  transform: .2;
+  
+}
 
 body {
     background: linear-gradient(to right, #FFD700, #C72C41);
@@ -47,3 +61,35 @@ header .btn-contato button:hover{box-shadow:0px 0px 8px #c72c4133;}
 }
 
 #VM{color: blue;}
+
+/* top do portifolio*/
+section.Top_site{
+  padding: 40px 4%;
+
+}
+
+section.Top_site.flex{
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.interface h1{color: #af2121;;
+  font-size: 40px;
+  line-height: 40px;
+  gap: 100px;
+  margin:20px 0;
+}
+.txt-top-site h1 span{color: rgba(0, 255, 85, 0.897);
+}
+
+.txt-top-site p{ color: black;
+gap: 40px;
+font-size: 25px}
+
+.img-top-site img{position: relative;
+animation: flutão 2s ease-in-out infinite alternate;
+}
+
+
+@keyframes flutão{0%{top: 0;}100%{top: 30px;}}
