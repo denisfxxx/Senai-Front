@@ -14,7 +14,11 @@
   border-radius:30px ;
   transform: .2;
   
+
 }
+h2.titulo{color: black;
+  font-size: 38px;
+ text-align: center;}
 
 body {
     background: linear-gradient(to right, #FFD700, #C72C41);
@@ -42,16 +46,9 @@ header nav ul{list-style-type: none;}
 header nav ul li{display:inline-block;
 padding:0 40px}
 
-header .btn-contato button{
-  padding: 10px 15px;
-  font-size: 15px;
-  font-weight: 500;
-  background-color: #C72C41;
-  cursor: pointer;
-  border:0;
-  border-radius:30px ;
+.btn-contato button:hover{box-shadow:0px 0px 8px #c2061fee;
+  transform: scale(1.05);
 }
-header .btn-contato button:hover{box-shadow:0px 0px 8px #c72c4133;}
 
 
 #LA{color: rgb(2, 85, 158);}
@@ -74,7 +71,7 @@ section.Top_site.flex{
   gap: 100px;
 }
 
-.interface h1{color: #af2121;;
+.interface h1{color:black;
   font-size: 40px;
   line-height: 40px;
   gap: 100px;
@@ -84,12 +81,58 @@ section.Top_site.flex{
 }
 
 .txt-top-site p{ color: black;
+  
 gap: 40px;
 font-size: 25px}
 
+
+
 .img-top-site img{position: relative;
 animation: flutão 2s ease-in-out infinite alternate;
+left: 400px;
 }
 
 
 @keyframes flutão{0%{top: 0;}100%{top: 30px;}}
+
+.Cursos-box {
+  display: flex;
+  align-items: center; 
+  gap: 40px;
+ justify-content: center;
+ padding: 40px 0;
+}
+
+.Cursos-item{ display: flex;
+  align-items: center;
+  gap: 20px;
+
+ }
+
+.section.Cursos.flex{gap:50px;
+}
+
+.section .Cursos{
+  padding: 80px 3%;
+}
+
+.Cursos .Cursos-box:hover{transform: scale(1.05);
+box-shadow: 0 0px;}
+
+
+
+.Cursos .Cursos-box{color: rgb(2, 2, 22);
+  border:5px solid #000000;
+padding: 50px 3%;
+font-size: 40px;
+margin-top: 25px;
+border-radius: 20px;
+transition: .2;
+
+}
+
+.Cursos-box i {color: rgba(48, 37, 194, 0.966);
+font-size: 80px;}
+
+.Cursos.Cursos-box h3{font-size: 50px;
+margin: 15px 0;}
