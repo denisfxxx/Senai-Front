@@ -21,8 +21,8 @@ h2.titulo{color: black;
  text-align: center;}
 
 body {
-    background: linear-gradient(to right, #FFD700, #C72C41);
-    height:100vh ;
+ background: linear-gradient(to right, #FFD700, #C72C41);
+ height:100vh ;
 }
 .menu-container{
  max-width: 1280px;
@@ -122,7 +122,7 @@ box-shadow: 0 0px;}
 
 
 .Cursos .Cursos-box{color: rgb(2, 2, 22);
-  border:5px solid #000000;
+border:5px solid #000000;
 padding: 50px 3%;
 font-size: 40px;
 margin-top: 25px;
@@ -137,58 +137,55 @@ font-size: 80px;}
 .Cursos.Cursos-box h3{font-size: 50px;
 margin: 15px 0;}
 
-
-/* formulario*/
-body {
+/*fomulario*/
+.Formulario {
   font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
-  padding: 20px;
+  background: linear-gradient(to right, #FFD700, #C72C41);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.form-container {
-  max-width: 400px;
-  margin: 0 auto;
-  background-color: white;
-  padding: 30px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+form{
+  background: rgb(255, 255, 255);
+  padding: 25px;
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
 }
 
-.form-container h2 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.form-group {
-  margin-bottom: 15px;
-}
-
-.form-group label {
-  display: block;
-  margin-bottom: 5px;
+label{
   font-weight: bold;
 }
 
-.form-group input {
-  width: 100%;
-  padding: 8px 12px;
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 14px;
-}
-
-button[type="submit"] {
+input{
   width: 100%;
   padding: 10px;
-  background-color: #4285F4;
-  color: white;
+  margin: 8px 0 18px 0;
+  border: 1px solid #800707;
+  border-radius: 5px;
+}
+
+button{
+  width: 100%;
+  padding: 12px;
+  background: #4CAF50;
   border: none;
-  border-radius: 4px;
+  color: rgb(255, 255, 255);
   font-size: 16px;
+  border-radius: 5px;
   cursor: pointer;
 }
 
-button[type="submit"]:hover {
-  background-color: #357ae8;
+button:hover{
+  background: #45a049;
 }
+
+.erro{
+  color: red;
+  font-size: 14px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
