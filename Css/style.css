@@ -60,51 +60,76 @@ padding:0 40px}
 #VM{color: blue;}
 
 /* top do portifolio*/
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
 section.Top_site{
   padding: 40px 4%;
 
 }
 
-section.Top_site.flex{
-  align-items: center;
-  justify-content: center;
-  gap: 100px;
+.interface h1 {
+  color: black;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin: 20px 0;
 }
 
-.interface h1{color:black;
-  font-size: 40px;
-  line-height: 40px;
-  gap: 100px;
-  margin:20px 0;
-}
-.txt-top-site h1 span{color: rgba(0, 255, 85, 0.897);
+.txt-top-site p {
+  color: black;
+  font-size: 1.2rem;
 }
 
-.txt-top-site p{ color: black;
-  
-gap: 40px;
-font-size: 25px}
+.interface h1 {
+  color: black;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin: 20px 0;
+}
 
-
-
-.img-top-site img{position: relative;
-animation: flutão 2s ease-in-out infinite alternate;
-left: 400px;
+.txt-top-site p {
+  color: black;
+  font-size: 1.2rem;
 }
 
 
-@keyframes flutão{0%{top: 0;}100%{top: 30px;}}
+
+
+.img-top-site img {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  position: relative;
+  animation: flutao 2s ease-in-out infinite alternate;
+}
+
+
+
+@keyframes flutao {
+  from { top: 0; }
+  to { top: 30px; }
+}
 
 .Cursos-box {
   display: flex;
-  align-items: center; 
+  align-items: center;
+  justify-content: center;
   gap: 40px;
- justify-content: center;
- padding: 40px 0;
+  padding: 40px 20px;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 .Cursos-item{ display: flex;
   align-items: center;
+  justify-items: end;
   gap: 20px;
 
  }
