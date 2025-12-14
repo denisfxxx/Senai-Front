@@ -100,7 +100,11 @@ section.Top_site{
 }
 
 
-
+.flex-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; }
 
 .img-top-site img {
   max-width: 400px;
