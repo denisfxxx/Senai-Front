@@ -54,38 +54,33 @@
                 <div class="flex-container">
                     <div class="txt-top-site">
                         <h1> Dênis Gomes Damas<span>.</span></h1>
-                        <p>Sou criativo, um pouco extrovetido, sei trabalhar em equipe, tenho uma boa comunicação.</p>
+                        <section id="sobre" class="sobre">
+                            <div class="interface">
+                                <h2>Sobre Mim</h2>
+                                <p>Sou um eletrista e estou mudando de área, estou cursando ciência de dados                                    
+                                sou criativo, um pouco extrovetido, sei trabalhar em equipe, tenho uma boa comunicação.</p>
+                                
+                                <p>
+                                    Tenho conhecimento em HTML, CSS, JavaScript,
+                                    instalações elétricas em casas e prédios.
+                                </p>
+            
+                            </div>
+                        </section>
                         <div class="btn-contato">
                             <a href="#Formulario"></a>
                         </div>
                     </div>
-
+                    
                     <div class="img-top-site">
                         <img src="imagens/foto 2.jpeg" alt="foto">
                     </div>
-
+                    
                 </div>
             </div>
-
             
-
-            <section id="sobre" class="sobre">
-                <div class="interface">
-                    <h2>Sobre Mim</h2>
-
-                    <p>
-                        Sou estudante de Eletrotécnica e apaixonado por tecnologia,
-                        desenvolvimento web e automção industrial.
-                        Busco oportunidades para crescer profissionalmente
-                        na área de Front-End e manutenção elétrica.
-                    </p>
-
-                    <p>
-                        Tenho conhecimento em HTML, CSS, JavaScript,
-                        instalações elétricas, comandos elétricos e energia solar.
-                    </p>
-                </div>
-            </section>
+            
+            
 
 
         </section>
@@ -147,7 +142,7 @@
         </section>
 
         <script>
-            // Máscara do telefone
+            // Máscara do tel
             document.getElementById("telefone").addEventListener("input", function (e) {
                 let x = e.target.value.replace(/\D/g, "");
                 if (x.length > 11) x = x.slice(0, 11);
